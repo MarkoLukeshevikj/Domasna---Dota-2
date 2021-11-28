@@ -1,0 +1,76 @@
+
+ main{
+     grid-area: main;
+ }
+
+ .dark-seer{
+     height: 80vh;
+     color: white;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     background-image: url(../Assets/images/default_header.jpeg);
+     background-size: 100% 50%;
+     background-repeat: no-repeat;
+ }
+
+ 
+.news{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 30px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.div1{
+    border: 1px solid white;
+    width: 230px;
+    height: 350px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+    text-align: center;
+    transition: all 0.2s linear;
+}
+
+.slika{
+    width: 200px;
+    height: 100px;
+}
+
+.div1:hover{
+    height: 370px;
+    width: 250px;
+}
+     
+
+.io{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    color: white;
+    font-size: 25px;
+    gap: 100px;
+}
+span{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+    width: 30%;
+}
+video{
+    width: 50%;
+}

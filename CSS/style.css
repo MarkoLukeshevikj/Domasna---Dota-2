@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+}
+body{
+    background-image: url(../Assets/images/bg_repeater.jpeg);
+    display: grid;
+    grid-template-rows: 80px auto 60px;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";
+    font-family: sans-serif;
+}
+
+nav{
+    grid-area: header;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+.links{
+    display: flex;
+    column-gap: 30px;
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.top-logo{
+    width: 150px;
+    height: 30px;
+}
+
+footer{
+    grid-area: footer;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 40px;
+}
+p{
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.read{
+    background-color: rgba(128, 128, 128, 0.39);
+    height: 40px;
+    width: 120px;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    transition: all 0.7s ease;
+}
+.read:hover{
+   background-color: rgba(128, 128, 128, 0.116);
+}
+
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background: rgba(0, 0, 0, 0.9)
+}
+::-webkit-scrollbar-thumb{
+    background: rgba(0, 0, 0, 1);
+    border-radius: 10px;
+}
