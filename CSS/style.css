@@ -4,7 +4,7 @@
 body{
     background-image: url(../Assets/images/bg_repeater.jpeg);
     display: grid;
-    grid-template-rows: 80px auto 60px;
+    grid-template-rows: 60px auto 60px;
     grid-template-areas:
     "header"
     "main"
@@ -19,7 +19,7 @@ nav{
     top: 0px;
     left: 0px;
     right: 0px;
-    height: 80px;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;

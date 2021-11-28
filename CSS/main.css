@@ -22,7 +22,7 @@
     align-items: center;
     justify-content: center;
     color: white;
-    gap: 30px;
+    gap: 40px;
 }
 .container{
     display: flex;
@@ -50,8 +50,7 @@
 }
 
 .div1:hover{
-    height: 370px;
-    width: 250px;
+    transform: scale(1.1, 1.1)
 }
      
 
