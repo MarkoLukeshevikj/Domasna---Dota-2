@@ -24,11 +24,11 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 40px;
+    padding: 0px 10px;
 }
 .links{
     display: flex;
-    column-gap: 30px;
+    column-gap: 10px;
 }
 
 .links a{
@@ -49,9 +49,6 @@ footer{
     justify-content: center;
 }
 
-h1{
-    font-size: 40px;
-}
 p{
     color: rgba(255, 255, 255, 0.4);
 }
@@ -69,7 +66,6 @@ p{
    background-color: rgba(128, 128, 128, 0.116);
 }
 
-
 ::-webkit-scrollbar{
     width: 10px;
 }
@@ -79,4 +75,13 @@ p{
 ::-webkit-scrollbar-thumb{
     background: rgba(0, 0, 0, 1);
     border-radius: 10px;
+}
+
+@media only screen and (min-width: 992px) {
+    h1{
+        font-size: 40px;
+    }
+    .links{
+        column-gap: 40px;
+    }
 }
